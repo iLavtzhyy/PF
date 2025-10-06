@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deetan Urban Mode - Tu tienda de ropa en línea desde Otavalo para todo el Ecuador.">
+    <title>Deetan | Urban Mode</title>
+    <link rel="icon" type="image/png" href="./Image/Deetan.png">
+    <link rel="shortcut icon" href="./Image/Deetan.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <!-- ========== PANTALLA DE CARGA ========== -->
+    <div class="cargador" id="cargador">
+        <div class="contenido-cargador">
+            <div class="spinner-cargador"></div>
+            <h2>Cargando Urban Mode...</h2>
+        </div>
+    </div>
+
+    <!-- ========== OVERLAY PARA MENÚ MÓVIL ========== -->
+    <div class="overlay-menu" id="overlayMenu"></div>
+
+    <!-- ========== ENCABEZADO ========== -->
+    <header class="encabezado">
+        <h1>Urban Mode</h1>
+        <p>Donde el estilo encuentra la elegancia</p>
+    </header>
+
+    <!-- ========== NAVEGACIÓN ========== -->
+    <nav class="navegacion" id="navbar">
+        <div class="contenedor-navegacion">
+            <!-- Logo -->
+            <div class="logo-navegacion" onclick="irArriba()">
+                <img src="./Image/Deetan.png" alt="Logo Deetan">
+                <span>DEETAN</span>
+            </div>
+
+            <!-- Menú para escritorio -->
+            <ul class="menu-navegacion">
+                <li><a href="#inicio" class="enlace-nav">Inicio</a></li>
+                <li><a href="#hombre" class="enlace-nav">Hombre</a></li>
+                <li><a href="#oversize" class="enlace-nav">Oversize</a></li>
+                <li><a href="#Promociones" class="enlace-nav">Promociones</a></li>
+                <li><a href="#nosotros" class="enlace-nav">Acerca De</a></li>
+            </ul>
+
+            <!-- Botón Mobile -->
+            <button class="boton-hamburguesa" id="botonHamburguesa" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== MENÚ LATERAL PARA MÓVILES ========== -->
+    <div class="menu-lateral" id="menuLateral">
+        <ul class="menu-navegacion">
+            <li><a href="#inicio" class="enlace-nav">Inicio</a></li>
+            <li><a href="#hombre" class="enlace-nav">Hombre</a></li>
+            <li><a href="#oversize" class="enlace-nav">oversize</a></li>
+            <li><a href="#Promociones" class="enlace-nav">Promociones</a></li>
+            <li><a href="#nosotros" class="enlace-nav">Acerca De</a></li>
+        </ul>
+    </div>
+
+    <!-- ========== CONTENEDOR PRINCIPAL ========== -->
+    <div class="contenedor">
+        <!-- Sección Hero -->
+        <section id="inicio" class="seccion">
+            <h2>Bienvenidos a Deetan Urban Mode</h2>
+            <p>Tu tienda de ropa en línea desde Otavalo para todo el Ecuador. En Deetan combinamos tradición y estilo moderno urbano, ofreciéndote camisetas al por mayor y menor, una amplia variedad de prendas de excelente calidad, en diferentes tallas. Explora nuestro catálogo y descubre piezas únicas hechas con dedicación.</p>
+            <h3>¡Enviamos a todo el país!</h3>
+            <br><br>
+            <a href="#hombre" class="boton-explorar">
+                Explorar Ahora <i class="ri-arrow-down-line"></i>
+            </a>
+        </section>
+
+        <!-- Sección Productos Hombre -->
+        <section id="hombre" class="seccion">
+            <h2 class="titulo-seccion">Colección Hombre</h2>
+            <div class="cuadricula-productos" id="productosHombre"></div>
+        </section>
+
+        <!-- Sección oversize -->
+        <section id="oversize" class="seccion">
+            <h2 class="titulo-seccion">CAMISETAS OVERSIZED</h2>
+            <div class="cuadricula-productos" id="productosoversize"></div>
+        </section>
+
+        <!-- Sección Promociones -->
+        <section id="Promociones" class="seccion">
+            <h2 class="titulo-seccion">Promociones Exclusivas</h2>
+            <div class="cuadricula-productos" id="productosPromociones"></div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="seccion">
+            <h2 class="titulo-seccion">DETRÁS DE DEETAN URBAN MODE</h2>
+            <p><strong>Bienvenido a Deetan,</strong> tu tienda de ropa en línea para todo el Ecuador. En <strong>Deetan</strong> unimos lo mejor de la tradición con las últimas tendencias de la moda, ofreciéndote prendas únicas, de alta calidad y pensadas para todos los estilos. Descubre nuestra amplia variedad de tallas, tejidos y diseños, con la posibilidad de personalizar tus prendas para que expreses tu identidad como nunca antes.</p>
+            <p>Viste con autenticidad. Viste Deetan.</p>
+        </section>
+    </div>
+
+    <!-- ========== PIE DE PÁGINA / FOOTER ========== -->
+    <footer class="pie-pagina">
+        <div class="contenido-pie">
+            <!-- Información de la tienda -->
+            <div class="seccion-pie">
+                <h3>Urban Mode</h3>
+                <p>Tu destino de moda favorito. Calidad, estilo y las últimas tendencias reunidas en un solo lugar para ti.</p>
+                <p style="margin-top: 1.5rem;"><strong>Horario:</strong> Lun - Sáb: 9:00 AM - 8:00 PM</p>
+            </div>
+
+            <!-- Contacto -->
+            <div class="seccion-pie">
+                <h3><i class="ri-phone-fill"></i> Contacto</h3>
+                <p><i class="ri-phone-fill"></i> 0987628131</p>
+                <p><i class="ri-phone-fill"></i> 0994538851</p>
+                <p><i class="ri-mail-fill"></i> Mxlvvnz@gmail.com</p>
+                <p><i class="ri-map-pin-fill"></i> Otavalo, Ecuador</p>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="seccion-pie">
+                <h3><i class="fas fa-heart"></i> Síguenos</h3>
+                <p>Conéctate con nosotros en redes sociales para ver las últimas novedades, promociones exclusivas y tendencias de moda.</p>
+                <div class="iconos-sociales">
+                    <!-- Enlace a Facebook -->
+                    <a href="https://facebook.com" target="_blank" class="facebook" title="Síguenos en Facebook">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <!-- Enlace a Instagram -->
+                    <a href="https://instagram.com" target="_blank" class="instagram" title="Síguenos en Instagram">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <!-- Enlace a Email -->
+                    <a href="mailto:info@fashionstore.com" class="gmail" title="Envíanos un email">
+                        <i class="ri-mail-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pie inferior -->
+        <div class="pie-inferior">
+            <p>&copy; 2025 Deetan Urban Mode. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ========== BOTÓN SCROLL TO TOP ========== -->
+    <button class="scroll-arriba" id="scrollArriba" onclick="irArriba()">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+  
+    <script src="./script/script.js">    </script>
+
+</body>
+</html>
