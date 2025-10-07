@@ -1,4 +1,4 @@
- /* ========== RESETEO Y VARIABLES CSS ========== */
+
         /* Elimina márgenes y padding predeterminados */
         * {
             margin: 0;
@@ -6,7 +6,7 @@
             box-sizing: border-box;
         }
 
-        /* Variables CSS para colores y estilos reutilizables */
+        /* Variables CSS para colores y estilos */
         :root {
             --negro: #0a0a0a;
             --dorado: #d4af37;

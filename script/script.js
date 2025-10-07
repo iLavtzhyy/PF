@@ -50,7 +50,7 @@
                     descripcion: "CAMISETAS URBANAS DE HOMBRE DISEÑOS CLÁSICOS ya disponibles en local Físico y ventas online en tallas S M L. Realizamos envíos a todo Ecuador"
                 },
                 {
-                    nombre: "Camiseta Boston",
+                        nombre: "Camiseta Boston",
                     precio: "$10.00",
                     imagen: "./image/CamisetaBoston.png",
                     descripcion: "CAMISETAS URBANAS DE HOMBRE DISEÑOS CLÁSICOS ya disponibles en local Físico y ventas online en tallas S M L. Realizamos envíos a todo Ecuador"
@@ -312,7 +312,7 @@
         });
 
         // ========== DETECTAR MÓVIL ==========
-        const esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const esMovil = /Android|webOS|iPhone|iPad|iPod|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
         if (esMovil) {
             document.addEventListener('click', (e) => {
